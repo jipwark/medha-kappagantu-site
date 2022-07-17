@@ -1,0 +1,160 @@
+/* Google Font import */
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+/* Body */
+body {
+ background-color: #D6F8E4; 
+}
+
+/* Animations */
+@keyframes gradient{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;      
+    }
+  }
+
+.centered {
+  animation-name: gradient;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #607466;
+  color: #fff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#animation{
+  animation-name: gradient;
+  animation-duration: 1s;
+  animation-fill-mode: slide;
+}
+
+
+/* Text Styled (no animaltion) */
+
+h1 {
+  color: #B8E7C0;
+}
+.container {
+  text-align: center;
+  color: white;
+}
+h3{
+  color: #E6F8ED;
+}
+
+.info{
+  background-color: #343E3D;
+  color: #fff;
+  font-family: "Monaco", Helvetica, sans-serif;
+  padding: 2px;
+  border:2px solid #B4CDA8;
+}
+
+.para{
+  background-color: #343E3D;
+  color: #fff;
+  font-family: "Monaco", Helvetica, sans-serif;
+  padding: 2px;
+
+}
+
+.header{
+  animation-name: gradient;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+  background-color:  #607466;
+  color: white;
+  font-family: "Monaco", Helvetica, sans-serif;
+}
+
+/* Specific Topic Styles */
+.point{
+  background-color: #343E3D;
+  color: #fff;
+  font-family: "Monaco", Helvetica, sans-serif;
+  padding: 2px;
+
+}
+.footer{
+  background-color: #8EB3A7;
+  color: #fff;
+  font-family: "Monaco", Helvetica, sans-serif;
+}
+
+
+/* Nav */ 
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #EFFFF4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 17px;
+  font-family: "Monaco", Helvetica, sans-serif;
+  
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #343E3D;
+}
+
+
+.topnav a.active {
+  background-color: #5CAC7B;
+  color: white;
+}
+a:link {
+  color: #B8E7C0;
+}
+
+a:visited {
+  background-color:  #E6F8ED;
+}
+
+a:hover {
+  color: paleturquoise;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 24px;
+}
+
+.containerbut {  
+ 
+display: flex;  
+justify-content: center;  
+align-items: center;  
+} 
