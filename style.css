@@ -1,5 +1,5 @@
-/* Google Font import */
-@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+
 
 /* Body */
 body {
@@ -60,7 +60,7 @@ h3{
 .info{
   background-color: #343E3D;
   color: #fff;
-  font-family: "Monaco", Helvetica, sans-serif;
+  font-family: 'Righteous', cursive;
   padding: 2px;
   border:2px solid #B4CDA8;
 }
@@ -68,7 +68,7 @@ h3{
 .para{
   background-color: #343E3D;
   color: #fff;
-  font-family: "Monaco", Helvetica, sans-serif;
+  font-family: 'Outfit', sans-serif;
   padding: 2px;
 
 }
@@ -79,21 +79,21 @@ h3{
   animation-fill-mode: forwards;
   background-color:  #607466;
   color: white;
-  font-family: "Monaco", Helvetica, sans-serif;
+  font-family: 'Righteous', cursive;
 }
 
 /* Specific Topic Styles */
 .point{
   background-color: #343E3D;
   color: #fff;
-  font-family: "Monaco", Helvetica, sans-serif;
+  font-family: 'Righteous', cursive;
   padding: 2px;
 
 }
 .footer{
   background-color: #8EB3A7;
   color: #fff;
-  font-family: "Monaco", Helvetica, sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 
@@ -112,7 +112,7 @@ h3{
   padding: 14px 16px;
   text-decoration: underline;
   font-size: 17px;
-  font-family: "Monaco", Helvetica, sans-serif;
+  font-family: 'Righteous', cursive;
   
 }
 
@@ -123,10 +123,7 @@ h3{
 }
 
 
-.topnav a.active {
-  background-color: #5CAC7B;
-  color: white;
-}
+
 a:link {
   color: #B8E7C0;
 }
@@ -140,16 +137,27 @@ a:hover {
 }
 
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: #0BC222;
+  font-family: 'Righteous', cursive;
+  border-radius: 12px;
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 25px;
   margin: 4px 2px;
   cursor: pointer;
   padding: 10px 24px;
+  box-shadow: 0 9px #9DB5A0;
+}
+button:hover {
+  background-color: #399945
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .containerbut {  
@@ -157,4 +165,5 @@ button {
 display: flex;  
 justify-content: center;  
 align-items: center;  
+
 } 
